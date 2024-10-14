@@ -1,0 +1,15 @@
+﻿  main.cpp
+E:\新建文件夹11\unicorn\Emu\Emu\main.cpp(44,10): warning C4477: “printf”: 格式字符串“%p”需要类型“void *”的参数，但可变参数 1 拥有了类型“DWORD”
+E:\新建文件夹11\unicorn\Emu\Emu\main.cpp(77,9): warning C4477: “printf”: 格式字符串“%p”需要类型“void *”的参数，但可变参数 1 拥有了类型“DWORD”
+E:\新建文件夹11\unicorn\Emu\Emu\main.cpp(78,9): warning C4477: “printf”: 格式字符串“%p”需要类型“void *”的参数，但可变参数 1 拥有了类型“DWORD”
+E:\新建文件夹11\unicorn\Emu\Emu\main.cpp(79,9): warning C4477: “printf”: 格式字符串“%p”需要类型“void *”的参数，但可变参数 1 拥有了类型“DWORD”
+E:\新建文件夹11\unicorn\Emu\Emu\main.cpp(80,9): warning C4477: “printf”: 格式字符串“%p”需要类型“void *”的参数，但可变参数 1 拥有了类型“DWORD”
+E:\新建文件夹11\unicorn\Emu\Emu\main.cpp(81,9): warning C4477: “printf”: 格式字符串“%p”需要类型“void *”的参数，但可变参数 1 拥有了类型“DWORD”
+E:\新建文件夹11\unicorn\Emu\Emu\main.cpp(82,9): warning C4477: “printf”: 格式字符串“%p”需要类型“void *”的参数，但可变参数 1 拥有了类型“DWORD”
+E:\新建文件夹11\unicorn\Emu\Emu\main.cpp(83,9): warning C4477: “printf”: 格式字符串“%p”需要类型“void *”的参数，但可变参数 1 拥有了类型“DWORD”
+E:\新建文件夹11\unicorn\Emu\Emu\main.cpp(84,9): warning C4477: “printf”: 格式字符串“%p”需要类型“void *”的参数，但可变参数 1 拥有了类型“DWORD”
+E:\新建文件夹11\unicorn\Emu\Emu\main.cpp(85,9): warning C4477: “printf”: 格式字符串“%p”需要类型“void *”的参数，但可变参数 1 拥有了类型“DWORD”
+E:\新建文件夹11\unicorn\Emu\Emu\main.cpp(86,9): warning C4477: “printf”: 格式字符串“%p”需要类型“void *”的参数，但可变参数 1 拥有了类型“DWORD”
+E:\新建文件夹11\unicorn\Emu\Emu\main.cpp(221,12): warning C4477: “printf”: 格式字符串“%p”需要类型“void *”的参数，但可变参数 1 拥有了类型“DWORD”
+E:\新建文件夹11\unicorn\Emu\Emu\main.cpp(229,11): warning C4477: “printf”: 格式字符串“%p”需要类型“void *”的参数，但可变参数 1 拥有了类型“DWORD”
+  Emu.vcxproj -> E:\新建文件夹11\unicorn\Emu\Debug\Emu.exe

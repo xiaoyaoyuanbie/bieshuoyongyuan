@@ -1,0 +1,4 @@
+﻿  main.cpp
+E:\新建文件夹11\unicorn\Emu\Sample\main.cpp(18,13): warning C4326: “main”的返回类型应为“int”而非“void”
+  LINK : 已指定 /LTCG，但不需要生成代码；从链接命令行中移除 /LTCG 以提高链接器性能
+  Sample.vcxproj -> E:\新建文件夹11\unicorn\Emu\Release\Sample.exe

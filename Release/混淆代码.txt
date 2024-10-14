@@ -1,0 +1,117 @@
+00483894        push ebp
+00483895        movzx ebp, ax
+00483898        jmp 0x44fd1e
+0044FD1E        push edi
+0044FD1F        movsx edi, dx
+0044FD22        push ecx
+0044FD23        push ebx
+0044FD24        jmp 0x418f9f
+00418F9F        pushfd
+00418FA0        xadd bx, di
+00418FA4        shld ebp, esi, 0xcb
+00418FA8        push eax
+00418FA9        push esi
+00418FAA        push edx
+00418FAB        bt edi, 0x99
+00418FAF        xchg ebp, edi
+00418FB1        mov ecx, 0
+00418FB6        jmp 0x47ebff
+0047EBFF        push ecx
+0047EC00        btc ebx, edi
+0047EC03        bts bp, cx
+0047EC07        mov edi, dword ptr [esp + 0x28]
+0047EC0B        shrd ebx, edi, 6
+0047EC0F        btr ebx, ebx
+0047EC12        not edi
+0047EC14        xchg ebp, esi
+0047EC16        sbb bp, cx
+0047EC19        bswap edi
+0047EC1B        shr ebx, cl
+0047EC1D        adc dx, sp
+0047EC20        not edi
+0047EC22        bswap edi
+0047EC24        mov bh, 0x42
+0047EC27        add edi, ecx
+0047EC29        mov ebx, esp
+0047EC2B        xor cx, 0x1954
+0047EC30        mov esi, esp
+0047EC32        sub bx, di
+0047EC35        xadd ebp, ecx
+0047EC38        sub esp, 0xc0
+0047EC3E        bsr ecx, ebp
+0047EC41        mov ebx, edi
+0047EC43        mov edx, 0
+0047EC48        sub ebx, edx
+0047EC4A        and bp, 0x5a40
+0047EC4F        bswap cx
+0047EC52        btr ecx, esp
+0047EC55        lea ebp, [0x47ec55]
+0047EC5B        bt cx, 0x9b
+0047EC60        mov ecx, dword ptr [edi]
+0047EC62        jmp 0x443337
+00443337        add edi, 4
+0044333D        xor ecx, ebx
+0044333F        xor ecx, 0x5a115135
+00443345        neg ecx
+00443347        ror ecx, 3
+0044334A        jmp 0x458065
+00458065        inc ecx
+00458066        stc
+00458067        cmp dx, di
+0045806A        clc
+0045806B        xor ecx, 0x12cd5ba6
+00458071        xor ebx, ecx
+00458073        test si, sp
+00458076        clc
+00458077        cmc
+00458078        add ebp, ecx
+0045807A        jmp 0x44eb6b
+0044EB6B        jmp ebp
+00481550        mov ecx, dword ptr [esi]
+00481552        cmc
+00481553        sets dl
+00481556        lea esi, [esi + 4]
+0048155C        movzx edx, byte ptr [edi]
+0048155F        jmp 0x423d2c
+00423D2C        lea edi, [edi + 1]
+00423D32        cmc
+00423D33        cmp si, cx
+00423D36        test al, 3
+00423D38        xor dl, bl
+00423D3A        sub dl, 0x7b
+00423D3D        neg dl
+00423D3F        stc
+00423D40        cmp bp, si
+00423D43        test edx, edi
+00423D45        add dl, 0xc9
+00423D48        cmp cl, 0xa0
+00423D4B        neg dl
+00423D4D        jmp 0x45ae01
+0045AE01        dec dl
+0045AE03        cmc
+0045AE04        jmp 0x40534a
+0040534A        not dl
+0040534C        stc
+0040534D        clc
+0040534E        cmp esp, esp
+00405350        xor bl, dl
+00405352        mov dword ptr [esp + edx], ecx
+00405355        mov dl, 0xac
+00405357        mov edx, dword ptr [edi]
+00405359        add edi, 4
+0040535F        xor edx, ebx
+00405361        dec edx
+00405362        jmp 0x429c97
+00429C97        bswap edx
+00429C99        jmp 0x41f2f2
+0041F2F2        dec edx
+0041F2F3        stc
+0041F2F4        ror edx, 1
+0041F2F6        add edx, 0x2227756c
+0041F2FC        cmc
+0041F2FD        rol edx, 1
+0041F2FF        xor ebx, edx
+0041F301        add ebp, edx
+0041F303        jmp 0x43c5a0
+0043C5A0        push ebp
+0043C5A1        ret
